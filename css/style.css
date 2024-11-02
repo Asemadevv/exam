@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+  font-family: Orbitron, sans-serif;
+  text-decoration: none;
+}
+body {
+  background: #000;
+}
+
+.conatiner {
+  max-width: 1040px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.header-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  font-size: 16px;
+  color: #fff;
+  font-family: poppins;
+}
+
+#meta {
+  padding-block: 70px;
+}
+.meta {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.meta-text {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    width: 500px;
+    line-height: 70px;
+    color: #fff;
+    img {
+      max-width: 250px;
+      width: 100%;
+    }
+  }
+  p {
+    font-size: 18px;
+    font-family: poppins;
+    color: #fff;
+    padding: 28px 0;
+    width: 440px;
+  }
+}
+.button {
+  display: flex;
+  gap: 10px;
+}
+.btn1 {
+  padding: 10px 10px 10px 10px;
+  width: 140px;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  border: none;
+  font-family: poppins;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+}
+.btn2 {
+  padding: 10px 10px 10px 10px;
+  width: 140px;
+  border: 2px solid #a70ed1;
+  border-radius: 2px;
+  font-family: poppins;
+  background: none;
+  font-size: 14px;
+  color: #fff;
+}
+.ul {
+  padding-top: 30px;
+  display: flex;
+  color: #fff;
+  gap: 20px;
+}
+ul {
+  list-style-type: none;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+li:last-child {
+  font-size: 10px;
+  font-weight: 100;
+  width: 70px;
+}
+.vector {
+  position: absolute;
+  right: 500px;
+  bottom: 360px;
+}
+.rect {
+  position: absolute;
+  right: 60px;
+  bottom: -180px;
+  max-width: 500px;
+}
+
+.image {
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  bottom: 60px;
+}
+
+#place {
+  padding-top: 90px;
+}
+
+.place {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  img {
+    max-width: 600px;
+    width: 100%;
+  }
+}
+
+.place-top {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    img {
+      max-width: 200px;
+      width: 100%;
+      font-weight: 300;
+    }
+  }
+  p {
+    color: #d2d2d2;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 0 50px;
+    width: 400px;
+  }
+  button {
+    padding: 10px 10px 10px 10px;
+    width: 140px;
+    background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+    border: none;
+    font-family: poppins;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #fff;
+  }
+}
